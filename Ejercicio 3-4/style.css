@@ -1,0 +1,19 @@
+.menu-vertical {
+    list-style-type: none;
+    margin: 20px;
+}
+
+li {
+    padding: 10px;
+    margin: 20px;
+    background-color: lightblue;
+    width: 120px;
+}
+
+a:hover {
+    color: red;
+}
+
+a:visited {
+    color: green;
+}
