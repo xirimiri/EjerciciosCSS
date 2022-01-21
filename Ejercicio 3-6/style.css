@@ -1,0 +1,80 @@
+#todo {
+    display: flex;
+    background-color: white;
+    width: 760px;
+}
+
+#imagen {
+    background-color: rgb(190, 190, 190);
+    color: rgb(100, 100, 100);
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+
+#centro-salud p {
+    color: rgb(100, 100, 100);
+    margin: 5px 15px;
+    font-size: 18px;
+}
+
+#boton-cita {
+    background-color: white;
+    color: rgb(70, 70, 70);
+    text-align: center;
+    border: solid 2px;
+    border-color: rgb(120, 120, 120);
+    border-radius: 8px;
+    margin: 5px 15px;
+    padding: 8px;
+    height: 40px;
+}
+
+#boton-cita:hover {
+    cursor: pointer;
+}
+
+#boton-presu {
+    background-color: rgb(120, 120, 120);
+    color: white;
+    text-align: center;
+    border: none;
+    border-radius: 8px;
+    padding: 8px;
+    height: 40px; 
+    margin-left: -15px; 
+}
+
+#boton-presu:hover {
+    cursor: pointer;
+}
+
+#coment-punt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 200px;
+}
+
+#coment {
+    color: rgb(120, 120, 120);
+    line-height: 6px;
+}
+
+#puntuacion {
+    background-color: rgb(190, 190, 190);
+    color: black;
+    text-align: center;
+    border: none;
+    border-radius: 12px;
+    padding: 12px;
+    height: 40px;
+    margin-left: 20px;
+}
+
+#ver-coment:hover {
+    cursor: pointer;
+}
